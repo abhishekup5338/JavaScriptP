@@ -9,3 +9,15 @@ const product ={
 };
 
 console.log(product);
+
+
+//2-  Create a const object called "Profil" to store information shown in picture.
+
+const Profile ={
+    username : "abhishekup",
+    isFollow : true,
+    follower : 212,
+    following : 32
+};
+
+console.log(Profile);
