@@ -23,3 +23,51 @@ console.log("a / b =", a/b);
 // ++a means pre Increment
 // a-- means post Decrement
 // --a means pre Decrement
+
+
+// Assignment operators:
+// = - assign the right value to left one
+// += - a+=1 = a=a+1
+// -= - a-=1 = a=a-1
+// *= - a*=1 = a=a*1
+// %= - a%=1 = a=a%1
+// **= - a**=1 = a=a**1
+
+let x =5;
+let y=2;
+
+x +=4; //a=a+4=9
+console.log("a =",a);
+
+x -=4; //a=a-4=1
+console.log("a =",a)
+
+// Comparision Operators:-
+
+// 1- Equal to - ==
+// 2- Equal to and type - ===
+// 3- Not equal to - !=
+// 4- Not equal to and type - !==
+// Other comparision Operators - >, >=, <, <=
+
+let c=5;
+let d="5";
+console.log("c == d", c==d);
+
+
+let e=5;
+let f="5";
+console.log("c === d", e===f);
+
+
+// Logical Operators:-
+// 1- Logical AND = &&
+// 2- Logical OR = ||
+// 3- Lgical NOT = !
+
+let g = 6;
+let h = 5;
+
+let con1 = g > h; //true
+let con2 = g ===6; //true
+console.log("con1 && con2 = ", con1 && con2);
