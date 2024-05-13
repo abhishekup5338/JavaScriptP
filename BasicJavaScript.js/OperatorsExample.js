@@ -71,3 +71,20 @@ let h = 5;
 let con1 = g > h; //true
 let con2 = g ===6; //true
 console.log("con1 && con2 = ", con1 && con2);
+
+
+//Ternary Operators - ex- a ? b:c
+
+//ex - condition ? true output : false output
+
+let age3 = 25;
+let result = age3 > 18 ? "adult" : "not adult";
+console.log(result);
+
+//another way
+
+
+let age4 = 25;
+age4 > 18 ? console.log("adult" ): console.log("not adult");
+
+
