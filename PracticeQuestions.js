@@ -24,12 +24,35 @@ console.log(Profile);
 
 //3- Get user to input  a number using prompt ("Enter a number:").Check if the number is multiple of 5 or not.
 
-let num = prompt("wnter a number");
-if(num %5 === 0){
-    console.log(num,"is multiple of 5");
-} else
-{
-    console.log(num, "is NOT a multiple of 5")
-}
+// let num = prompt("wnter a number");
+// if(num %5 === 0){
+//     console.log(num,"is multiple of 5");
+// } else
+// {
+//     console.log(num, "is NOT a multiple of 5")
+// }
 
-//4- 
+//4- Write a code which can give grade to student according to their scores.
+
+let studScore = 45;
+
+if(studScore >=80)
+    {
+        console.log(studScore,"it's a A grade")
+    } 
+ else if(studScore >=70 && studScore<79)
+    {
+      console.log(studScore,"it's a B grade")
+     }
+ else if(studScore >=60 && studScore<69)
+     {
+         console.log(studScore,"it's a C grade")
+     }
+ else if(studScore >=50 && studScore<59)
+     {
+         console.log(studScore,"it's a D grade")
+      }
+ else(studScore >=0 && studScore<49)
+     {
+         console.log(studScore,"Student is failed")
+      }

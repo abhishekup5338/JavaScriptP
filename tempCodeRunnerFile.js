@@ -1,8 +1,7 @@
-
-const student = {
-    fullName : "Abhi Up",
-    age : 21,
-    cgpa : 8.2,
-    isPass : true
-};
-console.log(student)
+let num = prompt("wnter a number");
+// if(num %5 === 0){
+//     console.log(num,"is multiple of 5");
+// } else
+// {
+//     console.log(num, "is NOT a multiple of 5")
+// }
