@@ -56,3 +56,24 @@ if(studScore >=80)
      {
          console.log(studScore,"Student is failed")
       }
+
+
+      //5 - Print all even numbers from 0 to 100
+
+      for(let i=0;i<=100;i++){
+        if(i%2==0){
+            console.log(i)
+        }
+    };
+
+    //6 - Create a game  where you start with any random game  number.
+    // Ask the user to keep guessing the game number until the user enters correct value.
+
+    let gameNum = 25;
+
+    let userNum = promt("Guess the game number :")
+    while(userNum !== gameNum){
+        userNum = prompt("You entered wrong number. Guess again :");
+
+    }
+    console.log("Congratulations, you entered the right number");
