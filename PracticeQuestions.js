@@ -69,16 +69,36 @@ if(studScore >=80)
     //6 - Create a game  where you start with any random game  number.
     // Ask the user to keep guessing the game number until the user enters correct value.
 
-    let gameNum = 25;
+    // let gameNum = 25;
 
-    let userNum = promt("Guess the game number :")
-    while(userNum !== gameNum){
-        userNum = prompt("You entered wrong number. Guess again :");
+    // let userNum = prompt("Guess the game number :")
+    // while(userNum !== gameNum){
+    //     userNum = prompt("You entered wrong number. Guess again :");
 
-    }
-    console.log("Congratulations, you entered the right number");
+    // }
+    // console.log("Congratulations, you entered the right number");
 
     // 7 - Prompt the user to enter their full name. Generate a username  for them based on the Input.
     // Start  username with @, followed by their fullname and ending with the fullname length.
 
     
+
+
+
+
+
+
+
+
+    //8 - For the given arrray with matks of students -> [85,97,44,37,76,60]
+    //   Find the average marks of the entire class
+
+    let marks =  [85,97,44,37,76,60];
+    let sum = 0;
+
+    for(let val of marks){
+        sum += val;
+    }
+
+    let avg = sum/marks.length;
+    console.log(`ave marks of the class ${avg}`);

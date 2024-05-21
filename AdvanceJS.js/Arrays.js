@@ -13,6 +13,7 @@ console.log(heroes);
 console.log(marks[3]);
 console.log(marks[3]=66);
 
+//Looping over an Array
 for (let idx=0; idx < marks.length; idx++){
     console.log(marks[idx]);
 }
