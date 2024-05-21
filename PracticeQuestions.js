@@ -77,3 +77,8 @@ if(studScore >=80)
 
     }
     console.log("Congratulations, you entered the right number");
+
+    // 7 - Prompt the user to enter their full name. Generate a username  for them based on the Input.
+    // Start  username with @, followed by their fullname and ending with the fullname length.
+
+    

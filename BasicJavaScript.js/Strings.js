@@ -17,5 +17,7 @@ console.log("Shankar \nMobile")
 str.toUpperCase();
 str.toUpperCase();
 str.trim(); //removes whiteSpaces
-console.log(str.slice(8,13));
-console.log(str.concat(shop));
+console.log(str.slice(8,13)); //return part of string
+str.concat(str2); //joins str2 with str1
+str.replace(serachVal, newVal);
+str.charAt(idx);
