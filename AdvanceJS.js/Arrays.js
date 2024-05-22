@@ -25,7 +25,8 @@ for (let idx=0; idx < marks.length; idx++){
 //4- Concat() : joins multiple arrays & returns result
 let A = ["ab","za","pa"];
 let b = ["an","ni","vi"];
-let c =A.concat(b);
+let s = ["abhi","sh"];
+let c =A.concat(b,s); //We can concatnate the multiple arrays
 console.log(c);
 //5- unshift() : add to start
 //6- shift() : delete from start & return
