@@ -28,7 +28,12 @@ let b = ["an","ni","vi"];
 let s = ["abhi","sh"];
 let c =A.concat(b,s); //We can concatnate the multiple arrays
 console.log(c);
-//5- unshift() : add to start
-//6- shift() : delete from start & return
+
+//5- unshift() : add to start the working functionality is same as push method.
+console.log(A.unshift("wa","da")); //Add this array at the start 
+
+//6- shift() : delete from start & return the working functionality is same as pop method.
+let val = A.shift();
+console.log(val);
 //7- Slice() : returns the piece of the array  ex- slice(startidx,ensidx)
 //8- Splice() : change original array (add, remove, replace) ex- (startidx, delCount,newEl1...)
