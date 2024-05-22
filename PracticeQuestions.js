@@ -102,3 +102,12 @@ if(studScore >=80)
 
     let avg = sum/marks.length;
     console.log(`ave marks of the class ${avg}`);
+
+
+    // Create an array to store a companies name.
+    // a. Remove the first companies from array
+
+
+
+    let Comp = ["Bloomberg","Microsoft","Uber","Google","IBM","NetFlix"];
+    Comp.shift();
