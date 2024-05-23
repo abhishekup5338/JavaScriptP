@@ -106,8 +106,11 @@ if(studScore >=80)
 
     // Create an array to store a companies name.
     // a. Remove the first companies from array
-
+   // b.Remove Uber and add old
+   // c.Add amazon at the end
 
 
     let Comp = ["Bloomberg","Microsoft","Uber","Google","IBM","NetFlix"];
     Comp.shift();
+    Comp.splice(2,1,"OLA");
+    Comp.push("Amazon");
