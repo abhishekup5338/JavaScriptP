@@ -35,5 +35,5 @@ console.log(A.unshift("wa","da")); //Add this array at the start
 //6- shift() : delete from start & return the working functionality is same as pop method.
 let val = A.shift();
 console.log(val); //It will delete the first array that change will see in original array also. 
-//7- Slice() : returns the piece of the array  ex- slice(startidx,ensidx)
+//7- Slice() : returns the piece of the array  ex- slice(startidx,ensidx).
 //8- Splice() : change original array (add, remove, replace) ex- (startidx, delCount,newEl1...)
