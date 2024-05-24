@@ -114,3 +114,17 @@ if(studScore >=80)
     Comp.shift();
     Comp.splice(2,1,"OLA");
     Comp.push("Amazon");
+
+
+    //Create a function using a "function" keyword that takes a string as an argument & returns the number of vowels in the string.
+
+    function countVowels(str) {
+        let count =0;
+        for(const char of str){
+            if(char === "a" || char === "e" || char==="i" || char==="o" || char==="u"){
+                count++;
+            }
+
+        }
+        console.log(count);
+    }

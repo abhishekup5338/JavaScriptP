@@ -13,3 +13,15 @@ function myFunction(){
 }
 
 myFunction();
+
+// Funtion parameters exist in function block and they act like local variable of function.
+
+//ARROW FUNCTION - A COMPACT WAY OF WRITING A FUNCTION.
+
+const functionName = (a,b) => {
+   console.log(a+b);
+}
+
+const ArrowMul = (a,b) => {
+    console.log(a*b);
+}
