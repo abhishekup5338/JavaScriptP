@@ -37,3 +37,25 @@ let val = A.shift();
 console.log(val); //It will delete the first array that change will see in original array also. 
 //7- Slice() : returns the piece of the array  ex- slice(startidx,ensidx).
 //8- Splice() : change original array (add, remove, replace) ex- (startidx, delCount,newEl1...)
+
+//MAP - Create a new array with result of some operations. The value  its callback returns are used to form new array
+
+//ex - Array.map(callbackfunction(value,index,array));
+
+
+//Filter - Create new array of element that give the true for condition/filter.
+
+//Reduce - Performs some operations & reduce the array to a single value. It returns that single value
+
+let arr =[1,2,3,4];
+const output = arr.reduce((result, current) =>{
+    return result+current;
+});
+console.log(output); //10
+
+//Find largest number 
+
+const output1 = arr.reduce((prev, current) =>{
+    return prev > current ? prev : current;
+});
+console.log(output1); 

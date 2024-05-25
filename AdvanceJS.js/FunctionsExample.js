@@ -25,3 +25,11 @@ const functionName = (a,b) => {
 const ArrowMul = (a,b) => {
     console.log(a*b);
 }
+
+//forEach Loop in Arrays
+arr.ForEach(CallBackFunction)
+
+//CallBackFunction : Here, it is a function to execute for each element in the array
+array.forEach(element => {
+    
+});
