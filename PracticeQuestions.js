@@ -128,3 +128,13 @@ if(studScore >=80)
         }
         console.log(count);
     }
+
+    //
+
+
+    let mark = [35, 74, 94, 32, 90, 97, 85,71];
+
+   let toppers =  mark.filter((val) => {
+       return val > 90;
+    });
+    console.log(toppers);
