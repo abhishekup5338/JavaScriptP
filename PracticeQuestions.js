@@ -129,7 +129,7 @@ if(studScore >=80)
         console.log(count);
     }
 
-    //
+    //Filter out marks of student that score 90+.
 
 
     let mark = [35, 74, 94, 32, 90, 97, 85,71];
